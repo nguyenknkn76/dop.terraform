@@ -18,8 +18,8 @@ data "aws_ami" "ubuntu" {
 # data.<type_of_resource>.<name_of_resource>.<attribute>
 
 # define argument ref of ec2 instances
-# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance#argument-reference 
-# https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance#argument-reference  
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference 
 
 resource "aws_instance" "app_server" {
   ami           = data.aws_ami.ubuntu.id # ex: ami-0a71e3eb8b23101ed

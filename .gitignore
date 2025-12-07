@@ -1,5 +1,14 @@
-# terraform.tfvars
+# Terraform variable files
+terraform.tfvars
+*.tfvars
+
+# Private key files
+*.pem
+*.key
+
 .terraform
 .terraform.lock.hcl
 terraform.tfstate.backup
 terraform.tfstate
+xxx.recap.md
+me.terraform.lv2
